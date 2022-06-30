@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchScreen /> Debe de hacer match con el snapshot 1`] = `
+<div>
+  <h1>
+    Search
+  </h1>
+  <hr />
+  <div
+    class="row"
+  >
+    <div
+      class="col-5"
+    >
+      <h4>
+        Searching
+      </h4>
+      <hr />
+      <form>
+        <input
+          aria-label="input"
+          autocomplete="off"
+          class="form-control"
+          name="searchText"
+          placeholder="search a hero"
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-primary mt-2"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      class="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        aria-label="searchDiv"
+        class="alert alert-primary animate__animated animate__fadeIn"
+      >
+        Search a hero
+      </div>
+      <div
+        aria-label="searchError"
+        class="alert alert-danger animate__animated animate__fadeIn"
+        style="display: none;"
+      >
+        Not found 
+        <b />
+      </div>
+    </div>
+  </div>
+</div>
+`;
